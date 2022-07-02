@@ -14,6 +14,18 @@ body {
     max-width: 1440px;
     margin: auto;
 }
+.maincontent{
+    width: 75%;
+    float: right;
+
+}
+.asidebar{
+    position: sticky;
+    top: 90px;
+    width: 25%;
+    float: left;
+    height: 100%;
+}
 nav {
     display: inline-block;
     padding: 10px 0;
@@ -24,6 +36,15 @@ nav > img {
     float: right;
     margin-top: 0px;
 }
+.sticky-image {
+    float: right;
+    position: sticky;
+	width: 27.14em;
+	height: 27.14em;
+	z-index: -1;
+	top: 80px;
+}
+
 .left {
     padding-right: 50px;
     font-weight: bold;
@@ -33,6 +54,7 @@ nav > img {
     font-weight: bold;
 }
 section {
+    z-index: 1;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -49,4 +71,7 @@ p{
 }
 #bc {
     background-color: grey;
+}
+hr{
+    width: 300px;
 }
